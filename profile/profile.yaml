@@ -100,7 +100,7 @@ professional_experience:
     Preparing SOW, Use Case and User Guide Documentation.
     Implemented new sections of the ALM product using .Net Framework and C#.
     New UI implementation of some parts of the product using JavaScript, ExtJS, jQuery, HTML5 and CSS3.
-    Bug Fixing - Both Front End and Back End."
+    Bug Fixing, both Front End and Back End."
 
 
 #List of edcuation
@@ -109,10 +109,15 @@ education:
     duration: "2010-2013"
     degree: "Master Degree"
     department: "Computer Application"
+    # optional
+    awards_achievements: 
+      - "Master degree with 83%"
   - school_name: "University of Calcutta"
     duration: "2006-2009"
     degree: "Bachelor Degree"
     department: "Mathematics"
+    awards_achievements: 
+      - "Honours in Mathematics"
 
 
 #Optional section
