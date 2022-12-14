@@ -27,10 +27,16 @@ skills:
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
+<<<<<<< HEAD
     - RDBMS/SQL, C#, PostgreSQL, Python, Flask, Heroku, LINUX/Bash
     - Data Modeling/Mapping
     - Data Analytics
     - Microsoft Excel, Microsoft PowerPoint, Tableau
+=======
+    - C#, RDBMS/SQL, PostgreSQL, Python, Flask, Heroku, LINUX/Bash
+    - Microsoft Excel, Microsoft PowerPoint, Tableau, Matplotlib, Seaborn
+    - HTML5, CSS3, JavaScript, jQuery, ExtJS
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
     - TFS, Github
     - HP-QC, HP-ALM, Kovair ALM, Rally, RQM, RTC
 
@@ -43,6 +49,7 @@ jarvis_projects:
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
     description: "Developed a linux cluster monitoring agent to track the hardware usage in a data center for several planning purpose.
     In this project, elicited the technical requirements, created the BRD and SRD documents defining the project scope, stakeholders, functional and non functional requirements with system sequence diagrams.
+<<<<<<< HEAD
     For development, CentOS 7 was used for development/testing, and Docker was used to run the PostgreSQL instance that stores the host machine's.
     The source code management was done with GitFlow, which is a branching model, and GIT.
     Each host has two bash scripts, and to start the monitoring program, a docker container should be running and the table should be created.
@@ -53,6 +60,18 @@ jarvis_projects:
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
     description: "Created an SRD for an online trading application.
     In this project developed an SRD document for a bank who wants a new online trading application for stockbrokers. 
+=======
+    For developement, CentOS 7 was used for development/testing, and Docker was used to run the PostgreSQL instance that stores the host machine's.
+    The source code management was done with GitFlow, which is a branching model, and GIT.
+    Each host has two bash scripts, and to start the monitoring program, a docker container should be running and the table should be created.
+    Testing was done by executing each script and checking if the result meets requirements to ensure that every script runs without issues."
+  - name: "BSA Crash Course"
+    git_url: ""
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+    description: "Created a SRD for an online trading application.
+    In this project developed a SRD document for a bank who wants a new online trading application for stock brokers. 
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
     Worked with clients for requirement gathering and analysis.
     Developed the project document with proper architectural diagrams for the developers to understand.
     Created the data modeling and ER diagrams for the database team."
@@ -82,6 +101,10 @@ highlighted_projects:
     Statistically analyzed the data using Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
     Built a churn prediction model that achieved 80% accuracy on test data using Random Forest Classifier.
     Created a Tableau Story with executive style of presentation."
+<<<<<<< HEAD
+=======
+
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -92,13 +115,21 @@ professional_experience:
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
+<<<<<<< HEAD
     description: "Worked on a project based on Linux/SQL to help Jarvis Linux Cluster team manage their cluster entities.
+=======
+    description:"Worked on a project based on Linux/SQL to help Jarvis Linux Cluster team manage their cluster entities.
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
     Worked with Stakeholders and Jarvis Team to create a SRD Document on a new trading application.
     Collaborated with team members in a scrum team to carry out projects successfully."
   - title: "Software Engineer"
     company: "Kovair Software Pvt Ltd"
     duration: "2013-2016"
+<<<<<<< HEAD
     description: "Requirement Gathering and Analysis using Python Tool (Pandas, NumPy, Matplotlib, Seaborn).
+=======
+    description:"Requirement Gathering and Analysis using Python Tool (Pandas, NumPy, Matplotlib, Seaborn).
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
     Providing Demo to the prospective clients using Microsoft Excel, Microsoft PowerPoint, and Tableau.
     Leading and Presenting POC.
     Configuring the Product as per Customer's Requirement.
@@ -106,6 +137,10 @@ professional_experience:
     Implemented new sections of the ALM product using .Net Framework and C#.
     New UI implementation of some parts of the product using JavaScript, ExtJS, jQuery, HTML5 and CSS3.
     Bug Fixing, both Front End and Back End."
+<<<<<<< HEAD
+=======
+
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
 
 #List of edcuation
 education: 
@@ -120,8 +155,14 @@ education:
     duration: "2006-2009"
     degree: "Bachelor Degree"
     department: "Mathematics"
+<<<<<<< HEAD
     awards_achievements:
       - "Honors in Mathematics"
+=======
+    awards_achievements: 
+      - "Honours in Mathematics"
+
+>>>>>>> 533e78b4a5bb28c36bcff46a572b690ac824c1d9
 
 #Optional section
 others:
