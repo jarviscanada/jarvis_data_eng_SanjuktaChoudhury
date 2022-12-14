@@ -22,11 +22,11 @@ skills:
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
-    Programming Language: C#, RDBMS/SQL, Python, Flask, Heroku, LINUX/Bash
-    Analytics/Data Visualization: Microsoft Excel, Microsoft PowerPoint, Tableau, Matplotlib, Seaborn
-    UI: HTML5, CSS3, JavaScript, jQuery, ExtJS
-    Version Control System: TFS, Github
-    Tools Knowledge: HP-QC, HP-ALM, Kovair ALM, Rally, RQM, RTC
+    - C#, RDBMS/SQL, PostgreSQL, Python, Flask, Heroku, LINUX/Bash
+    - Microsoft Excel, Microsoft PowerPoint, Tableau, Matplotlib, Seaborn
+    - HTML5, CSS3, JavaScript, jQuery, ExtJS
+    - TFS, Github
+    - HP-QC, HP-ALM, Kovair ALM, Rally, RQM, RTC
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
@@ -35,12 +35,21 @@ jarvis_projects:
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
+    description: "Developed a linux cluster monitoring agent to track the hardware usage in a data center for several planning purpose.
+    In this project, elicited the technical requirements, created the BRD and SRD documents defining the project scope, stakeholders, functional and non functional requirements with system sequence diagrams.
+    For developement, CentOS 7 was used for development/testing, and Docker was used to run the PostgreSQL instance that stores the host machine's.
+    The source code management was done with GitFlow, which is a branching model, and GIT.
+    Each host has two bash scripts, and to start the monitoring program, a docker container should be running and the table should be created.
+    Testing was done by executing each script and checking if the result meets requirements to ensure that every script runs without issues."
+  - name: "BSA Crash Course"
+    git_url: ""
     # Focus on BSA work instead of development work
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: ""
+    description: "Created a SRD for an online trading application.
+    In this project developed a SRD document for a bank who wants a new online trading application for stock brokers. 
+    Worked with clients for requirement gathering and analysis.
+    Developed the project document with proper architectural diagrams for the developers to understand.
+    Created the data modeling and ER diagrams for the database team."
   - name: "Hadoop"
     git_url: "/hadoop"
     description: ""
@@ -53,22 +62,20 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/SanjuktaCh/Data-Analytics-Project"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description:
-    - Data Visualization Tool: Tableau, Microsoft Excel
-    - Collected the IMDB data set from Kaggle
-    - Cleaned the data set
-    - Analyzed and Visualized through a series of interactive tableau dashboards that focused on identifying the top Genres, Actors and Directors over the past 2 decades with respect to revenues and profits for the Studios to make a strategic decision regarding Production and Financing
-    - Created a Tableau Story with executive style of presentation
+    description: "Used Microsoft Excel for analysis.
+    Collected the IMDB data set from Kaggle.
+    Cleaned the data set.
+    Analyzed and Visualized through a series of interactive tableau dashboards that focused on identifying the top Genres, Actors and Directors over the past 2 decades with respect to revenues and profits for the Studios to make a strategic decision regarding Production and Financing.
+    Created a Tableau Story with executive style of presentation."
   - name: "Credit Card Customer Attrition Analysis"
     git_url: "https://github.com/SanjuktaCh/Data-Analytics-Project"
-    description:
-    - Customer Churn (Customer attrition) is the most challenge problem for business such as credit cards or banking companies. To find the potential Churning Customers performed analysis on the Credit Card Customers dataset using Python and Tableau to minimize churn rate for better service for company's growth and financial stability
-    - Collected the data set from Kaggle
-    - Cleaned the data set
-    - Pre-processed the data using Python
-    - Statistically analyzed the data using Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-    - Built a churn prediction model that achieved 80% accuracy on test data using Random Forest Classifier
-    - Created a Tableau Story with executive style of presentation
+    description: "Customer Churn (Customer attrition) is the most challenge problem for business such as credit cards or banking companies. To find the potential Churning Customers performed analysis on the Credit Card Customers dataset using Python and Tableau to minimize churn rate for better service for company's growth and financial stability.
+    Collected the data set from Kaggle.
+    Cleaned the data set.
+    Pre-processed the data using Python.
+    Statistically analyzed the data using Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
+    Built a churn prediction model that achieved 80% accuracy on test data using Random Forest Classifier.
+    Created a Tableau Story with executive style of presentation."
 
 
 # List of professional experience
@@ -80,25 +87,20 @@ professional_experience:
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
-    description:
-    - Created a Cluster Monitor program that monitors and stores the host machine's hardware information and resource usage.
-    - Used Centos 7 for development and testing and Docker to run the PostgreSQL
-    - The source code management was done with GitFlow, which is a branching model and GIT
-    - Created a Docker Container and a table to start the monitoring program
-    - Two bash scripts were created. Testing was done by executing each script and checking if the result meets requirements to ensure that every script runs without issues
-
+    description:"Worked on a project based on Linux/SQL to help Jarvis Linux Cluster team manage their cluster entities.
+    Worked with Stakeholders and Jarvis Team to create a SRD Document on a new trading application.
+    Collaborated with team members in a scrum team to carry out projects successfully."
   - title: "Software Engineer"
     company: "Kovair Software Pvt Ltd"
     duration: "2013-2016"
-    description:
-    - Requirement Gathering and Analysis using Python Tool (Pandas, NumPy, Matplotlib, Seaborn)
-    - Providing Demo to the prospective clients using Microsoft Excel, Microsoft PowerPoint, and Tableau
-    - Leading and Presenting POC
-    - Configuring the Product as per Customer's Requirement
-    - Preparing SOW, Use Case and User Guide Documentation
-    - Implemented new sections of the ALM product using .Net Framework and C#
-    - New UI implementation of some parts of the product using JavaScript, ExtJS, jQuery, HTML5 and CSS3
-    - Bug Fixing - Both Front End and Back End
+    description:"Requirement Gathering and Analysis using Python Tool (Pandas, NumPy, Matplotlib, Seaborn).
+    Providing Demo to the prospective clients using Microsoft Excel, Microsoft PowerPoint, and Tableau.
+    Leading and Presenting POC.
+    Configuring the Product as per Customer's Requirement.
+    Preparing SOW, Use Case and User Guide Documentation.
+    Implemented new sections of the ALM product using .Net Framework and C#.
+    New UI implementation of some parts of the product using JavaScript, ExtJS, jQuery, HTML5 and CSS3.
+    Bug Fixing - Both Front End and Back End."
 
 
 #List of edcuation
