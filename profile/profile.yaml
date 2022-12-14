@@ -11,7 +11,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SanjuktaCh
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
 summary: I completed my bachelors in Mathematics honors and have a master degree in Computer Application and recently acquired a Data Analytics Certification from SpringBoard School of Data Analytics.
   I started my career as a Software Developer where I worked for 3.5 years and am currently working as Business System Analyst at Jarvis.
-  I have experience with coding along with strong analytical skills, I interacted with stakeholders, and customers to understand business requirements and project scopes to create Business and Software Documents.
+  My experience with coding along with strong analytical skills helped me interacted with stakeholders, and customers to understand business requirements and project scopes to create Business and Software Documents.
   I have always been passionate about numbers and statistical analysis and use this skills to find new insights not only professionally but in every aspect of life.
   I am excited to combine my previous Software Developer experience with newly acquired Data Analytical skills to enable data decisions making at scale.
 
@@ -47,12 +47,6 @@ jarvis_projects:
     git_url: ""
     # Focus on BSA work instead of development work
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: "Created an SRD for an online trading application.
-    In this project developed an SRD document for a bank who wants a new online trading application for stockbrokers."
-  - name: "BSA Crash Course"
-    git_url: ""
-    # Focus on BSA work instead of development work
-    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
     description: "Created a SRD for Jarvis trading team who wants a new online trading application for stock brokers to replace their old legacy system, a monolithic application that is hard to scale and manage.
     Worked with clients for requirement gathering and analysis, developed scope and incorporated changes in a highly agile environment
     Developed the project document with proper architectural diagrams for the developers to understand.
@@ -71,7 +65,7 @@ highlighted_projects:
     Created a Tableau Story with an executive style of presentation."
   - name: "Credit Card Customer Attrition Analysis"
     git_url: "https://github.com/SanjuktaCh/Data-Analytics-Project"
-    description: "Customer Churn (Customer attrition) is the most challenging problem for businesses such as credit cards or banking companies. To find the potential churning customers performed analysis on the customer credit card dataset using Python and Tableau to understand the reasons for churn rate so that the company can take actions for growth and financial stability.
+    description: "Customer Churn (Customer attrition) is the most challenging problem for businesses such as credit cards or banking companies. To find the potential churning customers, performed analysis on the customer credit card dataset using Python and Tableau to understand the reasons for churn rate so that the company can take actions for growth and financial stability.
     Collected the data set from Kaggle and pre-processed the data using Python.
     Statistically analyzed the data using Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
     Built a churn prediction model that achieved 80% accuracy on test data using Random Forest Classifier.
