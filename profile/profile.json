@@ -2,46 +2,46 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "Master degree with 83%"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Master Degree",
+      "department": "Computer Application",
+      "duration": "2010-2013",
+      "school_name": "University of Calcutta"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "awards_achievements": [
+        "Honors in Mathematics"
+      ],
+      "degree": "Bachelor Degree",
+      "department": "Mathematics",
+      "duration": "2006-2009",
+      "school_name": "University of Calcutta"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SanjuktaChoudhury",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Used Microsoft Excel for analysis. Collected the IMDB data set from Kaggle. Cleaned the data set. Analyzed and Visualized through a series of interactive tableau dashboards that focused on identifying the top Genres, Actors and Directors over the past 2 decades with respect to revenues and profits for the Studios to make a strategic decision regarding Production and Financing. Created a Tableau Story with executive style of presentation.",
+      "git_url": "https://github.com/SanjuktaCh/Data-Analytics-Project",
+      "name": "IMDB Data Analysis for Future Investment"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Customer Churn (Customer attrition) is the most challenge problem for business such as credit cards or banking companies. To find the potential Churning Customers performed analysis on the Credit Card Customers dataset using Python and Tableau to minimize churn rate for better service for company's growth and financial stability. Collected the data set from Kaggle. Cleaned the data set. Pre-processed the data using Python. Statistically analyzed the data using Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn). Built a churn prediction model that achieved 80% accuracy on test data using Random Forest Classifier. Created a Tableau Story with executive style of presentation.",
+      "git_url": "https://github.com/SanjuktaCh/Data-Analytics-Project",
+      "name": "Credit Card Customer Attrition Analysis"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Developed a linux cluster monitoring agent to track the hardware usage in a data center for several planning purpose. In this project, elicited the technical requirements, created the BRD and SRD documents defining the project scope, stakeholders, functional and non functional requirements with system sequence diagrams. For development, CentOS 7 was used for development/testing, and Docker was used to run the PostgreSQL instance that stores the host machine's. The source code management was done with GitFlow, which is a branching model, and GIT. Each host has two bash scripts, and to start the monitoring program, a docker container should be running and the table should be created. Testing was done by executing each script and checking if the result meets requirements to ensure that every script runs without issues.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
     },
     {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
+      "description": "Created an SRD for an online trading application. In this project developed an SRD document for a bank who wants a new online trading application for stockbrokers. Worked with clients for requirement gathering and analysis. Developed the project document with proper architectural diagrams for the developers to understand. Created the data modeling and ER diagrams for the database team.",
+      "git_url": "",
+      "name": "BSA Project"
     },
     {
       "description": "",
@@ -49,25 +49,19 @@
       "name": "Hadoop"
     }
   ],
-  "name": "John Smith",
+  "name": "Sanjukta Choudhury",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "Data Analytics"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player; joined xyz club",
-        "Competitive gaming; compete for xyz",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Photography",
+        "Event Management",
+        "Volunteer - Worked in a retail store"
       ],
       "title": "Activities/Hobbies"
     }
@@ -75,30 +69,32 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "Worked on a project based on Linux/SQL to help Jarvis Linux Cluster team manage their cluster entities. Worked with Stakeholders and Jarvis Team to create a SRD Document on a new trading application. Collaborated with team members in a scrum team to carry out projects successfully.",
+      "duration": "2022-present",
+      "title": "Business System Analyst"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Kovair Software Pvt Ltd",
+      "description": "Requirement Gathering and Analysis using Python Tool (Pandas, NumPy, Matplotlib, Seaborn). Providing Demo to the prospective clients using Microsoft Excel, Microsoft PowerPoint, and Tableau. Leading and Presenting POC. Configuring the Product as per Customer's Requirement. Preparing SOW, Use Case and User Guide Documentation. Implemented new sections of the ALM product using .Net Framework and C#. New UI implementation of some parts of the product using JavaScript, ExtJS, jQuery, HTML5 and CSS3. Bug Fixing, both Front End and Back End.",
+      "duration": "2013-2016",
+      "title": "Software Engineer"
     }
   ],
   "skills": {
     "Business Skills": [
-      "Donec",
-      "Donec",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Dedicated team player demonstrating initiative and independence",
+      "Excellent communication, organizational and interpersonal skills",
+      "Excellent time management skills and the ability to manage multiple assignments",
+      "Reliable, consistent, flexible, and adaptable"
     ],
     "Technical Skills": [
-      "RDBMS/SQL",
+      "RDBMS/SQL, C#, PostgreSQL, Python, Flask, Heroku, LINUX/Bash",
       "Data Modeling/Mapping",
-      "Data Analytics"
+      "Data Analytics",
+      "Microsoft Excel, Microsoft PowerPoint, Tableau",
+      "TFS, Github",
+      "HP-QC, HP-ALM, Kovair ALM, Rally, RQM, RTC"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "I graduated with mathematics honors and have a master degree in Computer Application and recently acquired Data Analytics Certification. I started my career as a Software Developer where I worked for 3.5 years and currently working as Business System Analyst at Jarvis. Experience with coding along with strong analytical skills, I interacted with prospects, stakeholders, and customers to understand business requirements, scope, develop, and deliver quality solutions in the domain of integrated ALM. I was always passionate about numbers and statistical analysis and utilize it to find new insights not only professionally but in every aspect of life. Having an eye for details and a strong quantitative background, I am excited to combine my previous Software Developer experience with newly acquired Data Analytical skills to enable data decisions making at scale."
 }
